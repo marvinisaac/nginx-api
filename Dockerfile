@@ -1,3 +1,3 @@
 FROM nginx:alpine
-COPY ./nginx.conf /etc/nginx/nginx.conf
+COPY ./project.conf.template /etc/nginx/templates/
 COPY ./public/index.php /var/www/html/public/index.php
