@@ -1,6 +1,6 @@
 # Default server definition
 server {
-    listen 80;
+    listen 80 default_server;
     server_name ${VIRTUAL_HOST};
 
     sendfile off;
